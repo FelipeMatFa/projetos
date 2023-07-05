@@ -1,0 +1,114 @@
+body{
+    padding: 0;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+#borda1, #borda2, #borda_texto{
+    position: absolute;
+    margin: auto;
+    width: 220vh;
+    height: 20vh;
+    background-color: black;
+}
+#borda2{
+    top: 340vh;
+    height: 5vh;
+}
+#borda_texto{
+    top: 60vh;
+    height: 1px;
+    opacity: 50%;
+    border-radius: 90%;
+}
+
+#logo{
+    position: absolute;
+    margin: auto;
+    top: 2vh;
+    left: 6vh;
+    width: 16vh;
+    height: 16vh;
+    
+}
+#guia1, #guia2, #guia3{
+    position: absolute;
+    margin: auto;
+    left: 140vh;
+    top: 35%;
+    font-size: 20px;
+}
+#guia2{
+    left: 160vh;
+}
+#guia3{
+    left: 190vh;
+}
+
+#primeira_img, #titulo1, #titulo1_linha2, #segunda_img, #titulo2, #titulo2_linha2{
+    position: absolute;
+    margin: auto;
+    top: 70vh;
+    left: 10vh;
+    width: 55vh;
+    height: 65vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#titulo1{
+    left: 50vh;
+    top: 35vh;
+    width: 100vh;
+    font-size: 50px;
+}
+#titulo1_linha2{
+    left: 30%;
+    top: 45vh;
+    width: 100vh;
+    font-size: 25px;
+    opacity: 60%;
+}
+#segunda_img{
+    top: 150vh;
+    left: 110vh;
+    width: 80vh;
+    height: 50vh;
+}
+#titulo2{
+    top: 70vh;
+    left: 35%;
+    width: 100%;
+    font-size: 40px;
+}
+#titulo2_linha2{
+    font-family: Arial, Helvetica, sans-serif;
+    top: 145vh;
+    left: 15vh;
+    width: 100%;
+    font-size: 30px;
+    
+}
+
+#conteudo_vasco, #conteudo_vasco2{
+    position: absolute;
+    margin: 10px;
+    top: 75vh;
+    left: 70vh;
+    font-size: 20px;
+    opacity: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#conteudo_vasco2{
+    top: 155vh;
+    left: 7%;
+}
+
+#video_vasco{
+    position: absolute;
+    top: 220vh;    
+    left: 40vh;
+    width: 130vh;
+    height: 70vh;
+}
+
+p{
+    color: aliceblue;
+}
