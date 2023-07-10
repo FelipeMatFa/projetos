@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 12vh;
+    padding: 4vh 4vh;
+    display: flex;
+    align-items: center;
+    background-color:  #1b191a;    
+}
+input{
+    width: 35vw;
+    height: 7vh;
+    border-radius: 10px;
+}
+.navegacao{
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+    align-items: center;
+}
+#sobre{
+    color: white;
+}
+.texto-navegacao{
+    font-size: 3vh;
+    color: gray;
+    text-decoration: none;
+}
+#carrao{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    height: 180vh;
+    background-color: rgb(206,206,206);
+    padding: 3vh 6vw;
+}
+.container{
+    display: flex;
+    padding: 7vh 10vw 1vh;
+    justify-content: space-around;
+}
+#texto-informacao{
+    color: black;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+#informacao-venda{
+    margin: 15vh 5vh 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#imagens-paga{
+    width: 5vw;
+    height: 10vh;
+}
+figure{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.informacao-criadores{
+    padding: 7vh 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2vh;
+}
+.tamanho-foto-criadores{
+    width: 18vw;
+    height: 25vw;
+}
+footer{
+    background-color:  #1b191a; 
+    height: 40vh;
+    color: aliceblue;
+}
+#fim-pagina{
+    height: 40vh;
+    padding: 10vh 20vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 2vh;
+}
+li{
+    font-size: 1.5vw;
+}
+ul{
+    font-style: oblique;
+    width: 20vw;
+}
