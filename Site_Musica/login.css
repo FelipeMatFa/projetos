@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+body{
+    background-image: url(Imagens/imagem-fundo-vermelho.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div{
+    margin: 1vw;
+}
+.quad-login{
+    border: 1px solid black;
+    /* width: 27vw;
+    padding: 1vw; */
+    padding: 1vw 7vw;
+    background-color: aliceblue;
+}
+.quad-login > form > section, form > section > section, section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+}
+h2{
+    font-size: 2.5vw;
+}
+input{
+    width: 23vw;
+    height: 2vw;
+    border-radius: 1vw;
+    margin: 0.5vw;
+    font-size: 1.5vw;
+}
+button{
+    width: 10vw;
+    height: 2vw;
+    margin: 0.5vw;
+    font-size: 1.5vw;
+}
+
+.retan-novaConta{
+    border: 1px solid black;
+    height: 9vw;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.retan-novaConta > section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0vw 1.5vw;
+}
+#patrocionio{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-around;
+    font-size: 1.2vw;
+    background-color: aliceblue;
+}
+#nova-conta-link{
+    margin: 1vw;
+    font-size: 1.3vw;
+}
+#patrocionio > section{
+    display: flex;
+    flex-direction: row;
+    padding: 1.7vw;
+    
+}
+#patrocionio > section > img{
+    width: 1.5vw;
+}

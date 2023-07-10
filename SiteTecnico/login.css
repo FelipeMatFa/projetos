@@ -1,0 +1,83 @@
+*{
+    font-family:"Amazon Ember",Arial,sans-serif;
+}
+
+body{
+    background-color: #d3cbcb;
+}
+.logo{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    height: 10vh
+}
+
+.cadastro{
+    border-style:ridge;
+    border-width:1px;
+    padding: 10px 35px; 
+    width: 350px;
+    margin: 0 auto;
+    border-color: #757171;
+    border-radius: 5px;
+}
+
+input{
+    width: 350px;
+    height: 30px;
+    border-radius: 6px;
+} 
+a{
+    color: inherit;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.criar_conta{
+    margin-top: 20px;
+    width: 359px;
+    height: 30px;
+    border-radius: 6px;
+
+}
+
+.cont{
+    background-image: linear-gradient(to top, orange, #f0c14b);
+    margin-top: 20px;
+    width: 359px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    border-top: solid #757171;
+    margin:0px;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+    
+p{
+    color:dimgrey; 
+}
+    
+.poggers{
+    color: dimgrey;
+    text-align: center;
+}
+    
+.zaza{
+    display:flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(193, 41, 41); */
+    /* background-image: url("Imagens/fundao-site.jpg"); */
+    font-size: 1.5vw;
+    background-image: url(Imagens/imagem-fundo-vermelho.jpeg);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(65, 8, 8);
+    height: 6vw;
+    font-size: 2vw;
+    color: rgb(181, 16, 16);
+    padding: 2vw;
+}
+header > section > img{
+    width: 4vw;
+    height: 4vw;
+}
+section{
+    padding: 3vw 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+main{
+    height: 165vw;
+    display: flex;
+    flex-direction: column;
+}
+.barra_introducao_loop_noticias{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+#caixa-introducao, #Noticias{
+    background-color: rgb(196, 0, 0);
+}
+
+video{
+    width: 35vw;
+    height: 30vw;
+}
+#caixa-introducao{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30vw;
+    height: 25vw;
+    font-size: 1.5vw;
+    box-shadow: 6px 6px 6px 6px rgb(0, 0, 0);
+    margin: 1vw;
+}
+/* #caixa-introducao > section > p, #caixa-introducao > section{
+    padding: 1.2vw;
+} */
+#Noticias{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: 25vw;
+    margin: 1vw;
+    font-size: 1vw;
+    box-shadow: 6px 6px 6px 6px rgb(0, 0, 0);
+}
+#Noticias > section{
+    padding: 1.2vw;
+}
+#Noticias > section > img{
+    width: 4vw;
+    margin: 0.5vw;
+}
+
+
+/* Segunda div do main */
+    /* classe englobadora de musicas e playlists */
+    .listeneds-sounds-playlists{
+        display: flex;
+        flex-direction: column;
+    }
+    /* css do texto e conteudo */
+    #sounds, #playlists{
+        display: flex;
+        flex-direction: column;
+    }
+    /* css das musicas do "ESCUTADAS RECENTEMENTE" */
+    #listeneds-sounds{
+        display: flex;
+        border: 1px solid black;
+        width: 84vw;
+        background-color: rgb(148, 9, 9);
+    }
+    #sounds > p{
+        width: 83vw;
+        border: 1px solid black;
+        /* font-size: 2vw; */
+        padding: 2vw 2vw;
+        background-color: rgb(255, 0, 0);
+    }
+    #listeneds-sounds > img, #playlists > img{
+        width: 13vw;
+    }
+
+    /* css das playlists */
+    #playlists-list, #playlists-list > img, #playlists-list > button{
+        border: 1px solid black; 
+        padding: 0;
+    }
+    #playlists-list > img{
+        width: 13vw;
+        height: 18vw;  
+    }
+    #playlists-list > button{
+        width: 4.4vw;
+        height: 100%;
+        color: white;
+        background-color: rgb(255, 0, 0);
+}
+.videoYoutube{
+    border: 1px solid black;
+    width: 80vw;
+    height: 30vw;
+    display: flex;
+    color: aliceblue;
+    justify-content: end;
+    align-items: end;
+    margin: 1vh 10vw;
+}
+.videoYoutube > iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+form{
+    position: absolute;
+    padding: 4vw 20vw;
+}
+input{
+    width: 15vw;
+}
+footer{
+    height: 10vw;
+    background-color: rgb(65, 8, 8);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer > section{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}

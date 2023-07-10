@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-areas: "header header" 
+                         "main aside"
+                         "footer aside";
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 20% 60% 20%; 
+}
+header{
+    height: 20vh;
+    background-color:blue;
+    grid-area: header;
+}
+aside{
+    /* height: 60vh; */
+    height: auto;
+    background-color: rgb(255, 0, 132);
+    grid-area: aside;
+}
+main{
+    height: 60vh;
+    background-color: cadetblue;
+    grid-area: main;
+}
+footer{
+    height: 20vh;
+    background-color: palegreen;
+    grid-area: footer;
+}

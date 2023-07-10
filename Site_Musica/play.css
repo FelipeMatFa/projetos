@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: rgb(0, 0, 0);
+    /* background-image: "imagens/fundo-site.jpg"; */
+    background-image: url(Imagens/imagem-fundo-vermelho.jpeg);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(65, 8, 8);
+    height: 6vw;
+    font-size: 2vw;
+    color: rgb(181, 16, 16);
+    padding: 2vw 0.8vw;
+}
+header > section > img{
+    width: 4vw;
+    height: 4vw;
+}
+section{
+    padding: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+main{
+    height: 130vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-LetraMusica{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2vw 2vw;
+}
+.video-LetraMusica > section > video{
+    width: 50vw;
+    height: 30vw;
+}
+#Letras{
+    border: 1px solid black;
+    display: flex;
+    margin: 5vw;
+    flex-direction: column;
+    font-size: 1.5vw;  
+    background-color: rgb(196, 0, 0);
+}
+#Letras > section{
+    height: 15vw;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+.listeneds-sounds-playlists{
+    display: flex;
+    flex-direction: column;
+}
+/* css do texto e conteudo */
+#sounds, #playlists{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+/* css das musicas do "ESCUTADAS RECENTEMENTE" */
+#listeneds-sounds{
+    display: flex;
+    border: 1px solid black;
+    width: 76.2vw;
+    background-color: rgb(148, 9, 9);
+}
+#sounds > p{
+    width: 78.5vw;
+    font-size: 1.5vw;
+    padding: 2vw 2vw;
+    background-color: rgb(255, 0, 0);
+}
+#listeneds-sounds > img, #playlists > img{
+    width: 12vw;
+}
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    margin: 6vw 8vw; 
+    padding: 2.5vw;
+    border: 1px solid black;
+    font-size: 1.5vw;
+    background-color: aliceblue;
+}
+.comentarios > section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1vw;
+}
+.comentarios-img{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 4vw;
+}
+.comentarios-usuario{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25vw;
+}
+div{
+    margin: 1vw;
+}
+
+footer{
+    height: 10vw;
+    background-color: rgb(65, 8, 8);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer > section{
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
