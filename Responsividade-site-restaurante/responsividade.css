@@ -1,0 +1,156 @@
+/* -------------- TELA TABLET --------------*/
+
+
+@media screen and (min-width: 500px) and (max-width: 770px){
+    h1{
+        font-size: 40px;
+    }
+    
+    .primeiro_nav_cabecalho{
+        font-size: 23px;
+    }
+
+    .primeira-sessao__div{
+        padding: 2vw;
+        margin-top: 12vh;
+    }
+
+    .primeira-sessao__titulo{
+        font-size: 16px;
+    }
+
+    .primeira-sessao__segundo-paragrafo{
+        font-size: 14px;
+    }
+
+    #primeira-sessao__botao{
+        width: 32vw;
+        height: 3.5vh;
+        font-size: 14px;
+    }
+    .segunda-sessao{
+        height: 30vh;
+        padding-bottom: 2vh;
+        margin-top: 2vh;
+     }
+     
+     .segunda-sessao__paragrafo{
+         font-size: 11px;
+         margin-left: 2vw;
+     }
+
+     .segunda-sessao__segundo-paragrafo{
+        font-size: 12px;
+    }
+
+     .terceira-sessao{
+        height: 30vh;
+        margin-top: 2vh;
+    }
+    
+    .terceira-sessao__paragrafo{
+        font-size: 32px; 
+    }
+    
+    .terceira-sessao__segundo-paragrafo{
+        font-size: 14px;
+    }
+    
+    #terceira-sessao__botao{
+        height: 4.5vh;
+        font-size: 14px;
+    }
+    
+    .quarta-sessao__contato{
+        font-size: 10px;
+    }
+    
+    .quarta-sessao__localidade-horario{
+        font-size: 14px;
+    }
+    
+    .quarta-sessao__informacoes-contato{
+        font-size: 16px;
+    }
+}
+
+/* ----------- TELA COMPUTADOR -----------*/
+
+@media screen and (min-width: 771px) and (max-width: 1200px){
+    h1{
+        font-size: 60px;
+    }
+    
+    .primeiro_nav_cabecalho{
+        font-size: 32px;
+        margin-bottom: 2vh;
+    }
+
+    .primeira-sessao__div{
+        margin-top: 15vh;
+        padding-top: 6vh;
+    }
+
+    .primeira-sessao__titulo{
+        font-size: 24px;
+    }
+
+    .primeira-sessao__segundo-paragrafo{
+        font-size: 20px;
+    }
+
+    #primeira-sessao__botao{
+        height: 4.5vh;
+        font-size: 16px;
+    }
+    .segunda-sessao{
+        height: 35vh;
+        padding-bottom: 2vh;
+        margin-top: 2vh;
+        background-size: 90% 110%;
+        height: 60vh;
+        padding-top: 16vh;
+     }
+     
+     .segunda-sessao__paragrafo{
+         font-size: 18px;
+         margin-left: 2.5vw;
+     }
+     
+     .segunda-sessao__segundo-paragrafo{
+         font-size: 16px;
+     }
+
+     .terceira-sessao{
+        height: 30vh;
+        padding: 8vh;
+        margin-top: 2vh;
+    }
+    
+    .terceira-sessao__paragrafo{
+        font-size: 48px;    
+    }
+    
+    .terceira-sessao__segundo-paragrafo{
+        font-size: 20px;
+    }
+    
+    #terceira-sessao__botao{
+        height: 6vh;
+        width: 30vw;
+        font-size: 16px;
+        padding: 0.5vh;
+    }
+    
+    .quarta-sessao__contato{
+        font-size: 16px;
+    }
+    
+    .quarta-sessao__localidade-horario{
+        font-size: 18px;
+    }
+    
+    .quarta-sessao__informacoes-contato{
+        font-size: 22px;
+    }
+}
