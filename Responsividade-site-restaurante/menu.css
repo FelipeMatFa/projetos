@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #C4C4C4;
+}
+
+
+/* ------------------ HEADER ------------------*/
+
+header{
+    height: 10.5vh;
+    font-family: 'Oranienbaum', Arial, Helvetica, sans-serif;
+}
+
+.cabecalho-primeiro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+}
+
+h1{
+    font-weight: 400;
+}
+
+.primeiro_nav_cabecalho{
+    display: flex;
+    justify-content: space-around;
+    width: 75vw;
+    font-size: 18px;
+    padding: 2vw;
+}
+
+.primeiro-nav-link:first-child{
+    text-decoration: underline;
+}
+
+.primeiro-nav-link{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* ------------------ MAIN ------------------*/
+
+main{
+    min-height: 50vh;
+    font-family: 'Oranienbaum', Arial, Helvetica, sans-serif;
+}
+
+/* ------------ PRIMEIRA SESSAO -------------*/
+
+.primeira-sessao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.primeira-sessao__div{
+    display: flex;
+    flex-direction: column;
+    padding: 3vw;
+    font-size: 13px;
+    gap: 10px;
+    width: 40vw;
+    margin-top: 6vh;
+}
+
+.primeira-sessao__titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 38vw;
+    font-weight: 400;
+    margin-top: 1px;
+    
+}
+
+#primeira-sessao__paragrafo{
+    color: brown;
+}
+
+.primeira-sessao__segundo-paragrafo{
+    width: 41.9vw;
+    font-size: 10.5px;
+}
+
+#primeira-sessao__linha{
+    width: 40.7vw;
+    height: 1px;
+    background-color: black;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+#primeira-sessao__botao{
+    width: 30vw;
+    background-color: #3b3131;
+    border: none;
+    border-radius: 2px;
+    height: 2.5vh;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0.5vh;
+    font-size: 12px;
+}
+
+/* ------------ SEGUNDA SESSAO -------------*/
+
+.segunda-sessao{
+   background-image: url(assets/primeira-imagem-menu.svg);
+   background-repeat: no-repeat;
+   background-position: 25vw;
+   background-size: 90% 170%;
+   height: 25vh;
+   padding-bottom: 2vh;
+   padding-top: 2vh;
+}
+
+.segunda-sessao-informacoes{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     height: 30vh;
+     margin-left: 2vh;
+}
+
+.segunda-sessao__paragrafo{
+    font-size: 9.6px;
+    width: 39vw;
+    margin-left: 1vw;
+    background-color: #E9E9E9;
+    padding: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-family:sans-serif;
+    margin-bottom: -1vh;
+    box-shadow: 16px 16px #E9E9E9;
+}
+
+.segunda-sessao__segundo-paragrafo{
+    font-size: 8px;
+    font-weight: 600;
+    align-self: flex-start;
+    width: 43vw;
+    text-align: end;
+    height: 4vh;
+}
+
+/* ------------ TERCEIRA SESSAO -------------*/
+
+.terceira-sessao{
+    background-image: url(assets/segunda-imagem-menu.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;   
+    height: 20vh;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 8vh;
+    margin-top: 3vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+.terceira-sessao__paragrafo{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.terceira-sessao__segundo-paragrafo{
+    text-align: center;
+    font-size: 10px;
+    width: 80vw;
+}
+
+#terceira-sessao__botao{
+    width: 30vw;
+    background-color: #3b3131;
+    border: none;
+    border-radius: 10px;
+    height: 2.5vh;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    margin: 0.5vh;
+    font-size: 11px;
+}
+
+/* ------------------ FOOTER ------------------ */
+
+.quarta-sessao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #C4C4C4;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+.quarta-sessao__contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 8px;
+    width: 20vw;
+}
+
+.quarta-sessao__localidade-horario{
+    font-size: 10px;
+}
+
+.quarta-sessao__informacoes-contato{
+    font-size: 12px;
+}
+
+.imagem__quarta-sessao{
+    width: 2vw;
+    margin-inline: 1vw;
+}
