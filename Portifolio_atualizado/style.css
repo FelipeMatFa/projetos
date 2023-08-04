@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(assets/HomeFundoPortifolio.png);
+    background-repeat: no-repeat;
+    /* background-position: 25vw; */
+    background-size: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    margin-bottom: 18vh;
+}
+
+.primeiro_nav_cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 4vw;
+}
+
+h2{
+    font-size: 16px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 800;
+}
+
+.primeiro_nav_cabecalho-primeira-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#primeiro_nav_img{
+    height: 5vw;
+}
+
+.segundo_nav_cabecalho-segunda-div{
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    /* font-family: ; */
+}
+
+.nav_cabecalho-link{
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+}
+
+
+main{
+    margin: 5vw;
+}
+
+.primeira-sessao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.primeira-sessao__div{
+    width: 24vw;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#primeira-sessao__titulo{
+    width: 55vw;
+    text-transform: uppercase;
+    font-size: 12.5px;
+    color: #FF5876;
+    font-family: 'roboto';
+    font-weight: 600;
+}
+
+#primeira-sessao__apresentacao{
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+}
+
+#primeira-sessao__informacoes{
+    font-family: 'roboto';
+    font-weight: 600;
+    font-size: 10px;
+    width: 45vw;
+    margin-bottom: 1vh;
+}
+
+.primeira-sessao__botoes{
+    width: 35vw;
+}
+
+#primeira-sessao__botao1, #primeira-sessao__botao2{
+    width: 15vw;
+    background-color: #FF6464;
+    border: none;
+    border-radius: 5px;
+    height: 2.5vh;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 7px;
+    font-style: #FFFFFF;
+    cursor: pointer;
+}
+#primeira-sessao__botao2{
+    color: #25282B;
+    border: 2px solid #25282B;
+    background-color: white;
+}
+
+
+.segunda-sessao__div{
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+}
+
+#segunda-sessao__img{
+    width: 45vw;
+    height: 30vh;
+}
+
+
+@media screen and (min-width: 550px) and (max-width: 770px){
+    header{
+        margin-bottom: 12vh;
+    }
+    
+    h2{
+        font-size: 14px;
+    }
+
+    #primeiro_nav_img{
+        height: 4.5vw;
+    }
+
+    .segundo_nav_cabecalho-segunda-div{
+        width: 45vw;
+    }
+
+    .nav_cabecalho-link{
+        font-size: 12px;
+    }
+
+    .primeira-sessao__div{
+        height: 28vh;
+    }
+
+    #primeira-sessao__titulo{
+        font-size: 14px;
+    }
+
+    #primeira-sessao__apresentacao{
+        font-size: 13.5px;
+    }
+
+    #primeira-sessao__informacoes{
+        font-size: 11.5px;
+    }
+
+    #primeira-sessao__botao1, #primeira-sessao__botao2{
+        font-size: 8px;
+    }
+
+    #segunda-sessao__img{
+        height: 40vh;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1200px){
+    header{
+        margin-bottom: 14vh;
+    }
+    
+    h2{
+        font-size: 18px;
+    }
+
+    #primeiro_nav_img{
+        height: 4.5vw;
+    }
+
+    .segundo_nav_cabecalho-segunda-div{
+        width: 40vw;
+    }
+
+    .nav_cabecalho-link{
+        font-size: 14px;
+    }
+
+    .primeira-sessao__div{
+        height: 28vh;
+    }
+
+    #primeira-sessao__titulo{
+        font-size: 18px;
+    }
+
+    #primeira-sessao__apresentacao{
+        font-size: 16.5px;
+    }
+
+    #primeira-sessao__informacoes{
+        font-size: 13.5px;
+    }
+
+    #primeira-sessao__botao1, #primeira-sessao__botao2{
+        font-size: 10px;
+        height: 4vh;
+    }
+
+    #segunda-sessao__img{
+        height: 55vh;
+        width: 40vw;
+        margin-top: -5vh;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1920px){
+    header{
+        margin-bottom: 16vh;
+    }
+    
+    h2{
+        font-size: 24px;
+    }
+
+    #primeiro_nav_img{
+        height: 3.5vw;
+    }
+
+    .segundo_nav_cabecalho-segunda-div{
+        width: 38vw;
+    }
+
+    .nav_cabecalho-link{
+        font-size: 20px;
+    }
+
+    .primeira-sessao__div{
+        height: 40vh;
+    }
+
+    #primeira-sessao__titulo{
+        font-size: 24px;
+    }
+
+    #primeira-sessao__apresentacao{
+        font-size: 22px;
+    }
+
+    #primeira-sessao__informacoes{
+        font-size: 20px;
+        width: 33vw;
+    }
+
+    #primeira-sessao__botao1, #primeira-sessao__botao2{
+        font-size: 12.5px;
+        height: 4.5vh;
+    }
+
+    #segunda-sessao__img{
+        height: 75vh;
+        width: 40vw;
+        margin-top: -10vh;
+    }
+}

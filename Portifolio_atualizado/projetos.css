@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    margin-bottom: 2vh;
+}
+
+.primeiro_nav_cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 5vw;
+}
+
+.primeiro_nav_cabecalho-primeira-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#primeiro_nav_img{
+    height: 4vw;
+}
+
+h2{
+    font-size: 16px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 800;
+}
+
+.segundo_nav_cabecalho-segunda-div{
+    display: flex;
+    justify-content: space-around;
+    width: 45vw;
+    /* font-family: ; */
+}
+
+.nav_cabecalho-link{
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+}
+
+main{
+    margin: 5vw;
+}
+
+.primeira-sessao__projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.primeira-sessao__divs{
+    box-shadow: 1px 1px 1px 1px;
+    margin: 2vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#primeira-sessao__imagem{
+    margin: 1.5vw;
+    height: 8vh;
+    cursor: pointer;
+}
+
+.sessoes-projetos__texto{
+    width: 38vw;
+    margin: 1.5vw;
+}
+
+#projetos-texto__titulo{
+    font-size: 8px;
+}
+
+#projetos-texto__subtitulo{
+    font-size: 7px;
+}
+
+#projetos-texto__informacoes{
+    font-size: 6.5px;
+}
+
+/* CONTATO */
+
+.primeira-sessao__contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4vw;
+    width: 80vw;
+}
+
+#primeira-sessao__botao{
+    width: 40vw;
+    background-color: #000000;
+    /* box-shadow: 1px #FF6464; */
+    border: none;
+    height: 3vh;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: #FFFFFF;
+    margin-bottom: 2vw;
+}
+
+#primeira-sessao__aviso{
+    text-align: center;
+    font-size: 10px;
+}
+
+.primeira_nav_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2vw;
+}
+
+.primeira_nav_footer-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1vh;
+    width: 33.3vw;
+}
+
+#nav_footer-texto{
+    font-size: 9px;
+}
+
+#nav_footer-img{
+    height: 5vw;
+}
+
+@media screen and (min-width: 550px) and (max-width: 770px){
+    header{
+        height: 12vh;
+        margin-bottom: 0.5vh;
+    }
+
+    #nome{
+        font-size: 20px;
+    }
+
+    .nav_cabecalho-link{
+        font-size: 13px;
+    }
+
+    .primeira-sessao__divs{
+        margin: 1vw;
+    }
+
+    #primeira-sessao__imagem{
+        height: 18vh;
+    }
+
+    .sessoes-projetos__texto{
+        width: 36.5vw;
+    }
+
+    #projetos-texto__titulo{
+        font-size: 10.5px;
+    }
+
+    #projetos-texto__subtitulo{
+        font-size: 9.5px;
+    }
+
+    #projetos-texto__informacoes{
+        font-size: 9px;
+    }
+
+
+    #primeira-sessao__botao{
+        width: 45vw;
+        height: 4.5vh;
+    }
+
+    #primeira-sessao__aviso{
+        font-size: 11.5px;
+        width: 50vw;
+    }
+
+    #nav_footer-texto{
+        font-size: 10px;
+    }
+
+    #nav_footer-img{
+        height: 4vw;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1200px){
+    header{
+        height: 10vh;
+        margin-bottom: 0.5vh;
+    }
+
+    #nome{
+        font-size: 22px;
+    }
+
+    .nav_cabecalho-link{
+        font-size: 16px;
+    }
+
+    main{
+        margin: 3.5vw;
+    }
+
+    .primeira-sessao__divs{
+        margin: 1vw;
+    }
+
+    #primeira-sessao__imagem{
+        height: 16.5vh;
+    }
+
+    .sessoes-projetos__texto{
+        width: 25vw;
+    }
+
+    #projetos-texto__titulo{
+        font-size: 10.5px;
+    }
+
+    #projetos-texto__subtitulo{
+        font-size: 10.5px;
+    }
+
+    #projetos-texto__informacoes{
+        font-size: 9px;
+    }
+
+
+    #primeira-sessao__botao{
+        width: 50vw;
+        height: 5.5vh;
+    }
+
+    #primeira-sessao__aviso{
+        font-size: 12.5px;
+        width: 45vw;
+    }
+
+    #nav_footer-texto{
+        font-size: 12px;
+    }
+
+    #nav_footer-img{
+        height: 4.5vw;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1920px){
+    header{
+        height: 10vh;
+        margin-bottom: 0.5vh;
+    }
+
+    #nome{
+        font-size: 26px;
+    }
+
+    .nav_cabecalho-link{
+        font-size: 22px;
+    }
+
+    #primeiro_nav_img{
+        height: 3vw;
+    }
+
+    .segundo_nav_cabecalho-segunda-div{
+        width: 35vw;
+    }
+
+    main{
+        margin: 2.5vw;
+    }
+
+    .primeira-sessao__divs{
+        margin: 1vw;
+    }
+
+    #primeira-sessao__imagem{
+        height: 17.5vh;
+    }
+
+    .sessoes-projetos__texto{
+        width: 26.5vw;
+    }
+
+    #projetos-texto__titulo{
+        font-size: 15.5px;
+    }
+
+    #projetos-texto__subtitulo{
+        font-size: 14px;
+    }
+
+    #projetos-texto__informacoes{
+        font-size: 13px;
+    }
+
+
+    #primeira-sessao__botao{
+        width: 45vw;
+        height: 6.5vh;
+    }
+
+    #primeira-sessao__aviso{
+        font-size: 19.5px;
+        width: 45vw;
+    }
+
+    #nav_footer-texto{
+        font-size: 16.5px;
+    }
+
+    #nav_footer-img{
+        height: 4vw;
+    }
+}
