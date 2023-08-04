@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(assets/HomeFundoPortifolio.png);
+    background-repeat: no-repeat;
+    /* background-position: 25vw; */
+    background-size: 100%;
+}
+
+/* NAV */
+
+header{
+    display: flex;
+    align-items: center;
+    height: 6vh;
+    /* margin-bottom: 18vh; */
+}
+
+.primeiro_nav_cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 4vw;
+}
+
+.primeiro_nav_cabecalho-primeira-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#primeiro_nav_img{
+    height: 4vw;
+}
+
+h2{
+    font-size: 16px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 800;
+}
+
+.segundo_nav_cabecalho-segunda-div{
+    display: flex;
+    justify-content: space-around;
+    width: 45vw;
+    /* font-family: ; */
+}
+
+.nav_cabecalho-link{
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+}
+
+
+/* MAIN */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    font-family: Roboto;
+}
+
+.primeiro-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.primeiro-formulario__preenchimento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5vh;
+}
+
+#titulo-preenchimento{
+    font-weight: 600;
+    font-size: 14px;
+    margin: 1.5vw;
+}
+
+#preenchimento-informacoes, #preenchimento-informacoes__mensagem{
+    border-radius: 1vw;
+    border: 1px solid #858C94;
+    padding: 2vw;
+    width: 75vw;
+}
+
+#preenchimento-informacoes__mensagem{
+    height: 10vh;
+}
+
+#formulario-botao__submit{
+    background-color: #FF6464;
+    border: none;
+    height: 3vh;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-style: #FFFFFF;
+    margin-top: 2vw;
+}
+
+/* FOOTER */
+
+
+.primeira_nav_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4vw;
+}
+
+.primeira_nav_footer-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3vh;
+    width: 33.3vw;
+}
+
+#nav_footer-texto{
+    font-size: 9px;
+}
+
+#nav_footer-img{
+    height: 4.5vw;
+}
+
+@media screen and (min-width: 550px) and (max-width: 770px){
+    header{
+        height: 7vh;
+    }
+    
+    #primeiro_nav_img{
+        height: 4.5vw;
+    }
+    
+    h2{
+        font-size: 16px;
+    }
+    
+    .segundo_nav_cabecalho-segunda-div{
+        width: 45vw;
+    }
+    
+    .nav_cabecalho-link{
+        font-size: 14px;
+    }
+    
+    
+    /* MAIN */
+    
+    main{
+        height: 80vh;
+    }
+    
+    #titulo-preenchimento{
+        font-size: 18px;
+    }
+    
+    #preenchimento-informacoes, #preenchimento-informacoes__mensagem{
+        border-radius: 2vw;
+        width: 80vw;
+    }
+    
+    #preenchimento-informacoes__mensagem{
+        height: 10vh;
+    }
+    
+    #formulario-botao__submit{
+        height: 5vh;
+        font-size: 12px;
+    }
+    
+    /* FOOTER */
+    
+    .primeira_nav_footer{
+        margin: 4vw;
+    }
+    
+    .primeira_nav_footer-div{
+        margin-top: 3vh;
+        width: 33.3vw;
+    }
+    
+    #nav_footer-texto{
+        font-size: 11px;
+    }
+    
+    #nav_footer-img{
+        height: 5vw;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1200px){
+    header{
+        height: 10vh;
+    }
+    
+    #primeiro_nav_img{
+        height: 5vw;
+    }
+    
+    h2{
+        font-size: 20px;
+    }
+    
+    .segundo_nav_cabecalho-segunda-div{
+        width: 40vw;
+    }
+    
+    .nav_cabecalho-link{
+        font-size: 16px;
+    }
+    
+    
+    /* MAIN */
+    
+    main{
+        height: 80vh;
+    }
+    
+    #titulo-preenchimento{
+        font-size: 20px;
+    }
+    
+    #preenchimento-informacoes, #preenchimento-informacoes__mensagem{
+        border-radius: 1vw;
+        width: 80vw;
+    }
+    
+    #preenchimento-informacoes__mensagem{
+        height: 15vh;
+    }
+    
+    #formulario-botao__submit{
+        height: 6vh;
+        font-size: 14px;
+    }
+    
+    /* FOOTER */
+    
+    .primeira_nav_footer{
+        margin: 2vw;
+    }
+    
+    .primeira_nav_footer-div{
+        margin-top: 3vh;
+        width: 33.3vw;
+    }
+    
+    #nav_footer-texto{
+        font-size: 12px;
+    }
+    
+    #nav_footer-img{
+        height: 4vw;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1920px){
+    header{
+        height: 12vh;
+    }
+    
+    #primeiro_nav_img{
+        height: 4vw;
+    }
+    
+    h2{
+        font-size: 22px;
+    }
+    
+    .segundo_nav_cabecalho-segunda-div{
+        width: 37vw;
+    }
+    
+    .nav_cabecalho-link{
+        font-size: 20px;
+    }
+    
+    
+    /* MAIN */
+    
+    main{
+        height: 90vh;
+        margin-top: 10vh;
+    }
+    
+    #titulo-preenchimento{
+        font-size: 22px;
+    }
+    
+    #preenchimento-informacoes, #preenchimento-informacoes__mensagem{
+        border-radius: 1vw;
+        width: 80vw;
+    }
+    
+    #preenchimento-informacoes__mensagem{
+        height: 15vh;
+    }
+    
+    #formulario-botao__submit{
+        height: 8vh;
+        font-size: 16px;
+    }
+    
+    /* FOOTER */
+    
+    .primeira_nav_footer{
+        margin: 1vw;
+    }
+    
+    .primeira_nav_footer-div{
+        margin-top: 4vh;
+        width: 33.3vw;
+    }
+    
+    #nav_footer-texto{
+        font-size: 14px;
+    }
+    
+    #nav_footer-img{
+        height: 3.5vw;
+    }
+}
