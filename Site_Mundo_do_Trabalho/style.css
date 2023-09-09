@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ------------------- HEADER -------------------*/
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171717;
+    height: 7vh;
+}
+
+.primeira-nav-cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+}
+
+.primeira-nav-cabecalho__primeira-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* font-size: 10px; */
+    width: 40vw;
+    color: aliceblue;
+}
+
+#nav-cabecalho__primeira-img{
+    height: 2.5vh;
+}
+
+#nav-cabecalho__nome-site{
+    font-size: 12px;
+}
+
+.primeira-nav-cabecalho__segunda-div{
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40vw;
+    padding: 3vw;
+}
+
+#barra-navegação{
+    display: flex;
+    color: white;
+    font-size: 40px;
+}
+
+.nav_cabecalho-link{
+    display: flex;
+    align-items: center;
+    font-size: 9.5px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* ------------------- MAIN -------------------*/
+
+main{
+    background-color: rgb(255, 255, 255);
+}
+
+/* ------------------- PRIMEIRA SESSÃO -------------------*/
+
+.primeira-sessao{
+    background-image: url(assets/Mundo_trabalho.png);
+    background-repeat: no-repeat;
+    background-size: 100% 85%;
+    /* background-color: linear-gradient(90deg, rgba(2,0,36,1) 100%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    height: 35vh;
+    background-color: #D9D9D9;
+}
+
+.primeira-sessao__primeira-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 26vh;
+}
+
+#primeira-sessao__informacao-escola{
+    color: #DBFF00;
+    font-size: 12px;
+}
+
+#primeira-sessao__titulo{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+    width: 55vw;
+    text-align: center;
+    margin: 1vh;
+}
+
+.primeira-nav-primeira-sessao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-primeira-sessao-link-button{
+    height: 1vh;
+    width: 1vh;
+    border-radius: 1vh;
+}
+
+/* ------------------- SEGUNDA SESSÃO -------------------*/
+
+.segunda-sessao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3vh;
+    padding: 2vh;
+}
+
+.segunda-sessao__primeira-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1vh;
+}
+
+#segunda-sessao__titulo{
+    font-size: 20px;
+    font-weight: 600;
+    width: 75vw;
+    margin-bottom: 3vh;
+}
+
+.segunda-sessao__segunda-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 1vh;
+}
+
+#segunda-sessao__informacao{
+    font-size: 16px;
+    text-align: justify;
+}
+
+#segunda-sessao__imagem1{
+    height: 10vh;
+}
+
+.segunda-sessao__terceira-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3vh;
+}
+
+.segunda-sessao__div-imagens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80vw;
+    margin: 5vh;
+}
+
+.segunda-sessao__div-imagens > i{
+    font-size: 40px;
+}
+
+/* ------------------- TERCEIRA SESSÃO -------------------*/
+
+.terceira-sessao{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* margin: 4vh;
+    padding: 2vh; */
+
+}
+
+.terceira-sessao__primeira-div{
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1.5vh;
+    background-color: #171717;
+    color: white;
+}
+
+#terceira-sessao__primeira-div__titulo{
+    margin: 3.5vh;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.terceira-sessao__primeira-div__informacoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.terceira-sessao__primeira-div__informacoes-quadrado, .terceira-sessao__primeira-div__informacoes-quadrado-habilidades{
+    display: flex;
+    flex-direction: column;
+    margin: 3vh;
+    padding: 2vh;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    box-shadow: -1vh -1vh beige;
+}
+
+.terceira-sessao__primeira-div__informacoes-quadrado-habilidades{
+    align-items: center;
+    width: 30vh;
+}
+
+.terceira-sessao__primeira-div__informacoes-quadrado-habilidades-paragrafos{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 10px;
+    height: 5vh;
+}
+
+#terceira-sessao__primeira-div__informacoes-quadrado__titulo{
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    font-weight: 600;
+}
+
+/* ------------------- QUARTA SESSAO --------------------*/
+
+.quarta-sessao{
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+}
+
+#titulo-quarta-sessao{
+    margin-bottom: 3vh;
+}
+
+.quarta-sessao__primeira-div{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5vh;
+}
+
+.quarta-sessao__primeira-div__conteudo{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.quarta-sessao__areas__primeira-sessao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.astro, .mat, .ciencia, .botao{
+    margin: 5vh;
+    margin-left: 13vw;
+    margin-right: 13vw;
+    padding: 4vh;
+    background-color: #d3d3d3;
+}
+
+.astro{
+    display: none;
+    flex-direction: column; 
+}
+
+.mat{
+    display: none;
+    flex-direction: column;
+}
+
+.ciencia{
+    display: none;
+    flex-direction: column;
+}
+
+.botao{
+    width: 30vh;
+    margin: 2vh;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 14px 24px 16px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    background: transparent;
+    color: #000000;
+    box-shadow: 0 0 0 3px #000000 inset;   
+}
+
+.quarta-sessao__areas__segunda-sessao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 4vh;
+}
+
+#areas__segunda-sessao__titulo{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 2vh;
+}
+
+.areas__segunda-sessao__paragrafos > p{
+    margin: 2vh;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+
+
+/* ------------------- QUINTA SESSAO -------------------- */
+
+.quinta-sessao{
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    padding: 2.5vh;
+    margin: 2vh;
+}
+
+#quinta-sessao__titulo{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 2vh;
+}
+
+.quinta-sessao__paragrafos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 14px;
+    margin: 2vh;
+}
+
+/* ultima sessao */
+.paragrados__logos-empresas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+
+#paragrafos__logos-empresas__titulo{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2vh;
+    text-align: center;
+}
+
+.imagens__logo{
+    display: flex;
+    justify-content: center;
+    padding: 1vh;
+}
+
+.imagens__logo > img{
+    height: 3.5vh;
+    padding: 1vh;
+}
+
+
+/* ------------------- SEXTA SESSAO -------------------- */
+
+.sexta-sessao{
+    background-color:#d3d3d3 ;
+    border-radius: 10px;
+    border: 5px solid black;
+    margin: 3vh;
+}
+
+.sexta-sessao__titulo > p{
+    padding: 4vh;
+    color: #000000;
+    border-bottom: 5px solid black;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.sexta-sessao__historia{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: justify;
+    padding: 2vh;
+}
+
+.sexta-sessao__historia{
+    margin: 2vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: wheat;
+}
+
+#sexta-sessao__historia__titulo{
+    font-size: 20px;
+    font-weight: 600;
+    height: 40vh;
+}
+
+.display1, .display2, .display3, .display4, .display5, .display6, .display7, .display8{
+    display: flex;
+    flex-direction: column;
+}
+
+.display2{
+    display: none;
+}
+
+.display3{
+    display: none;
+}
+
+.display4{
+    display: none;
+}
+
+.display5{
+    display: none;
+}
+
+.display6{
+    display: none;
+}
+
+.display7{
+    display: none;
+}
+
+.display8{
+    display: none;
+}
+
+
+.sexta-sessao__historia__bloco{
+    display: flex;
+    flex-direction: column;
+    margin: 2vh;
+}
+
+#sexta-sessao__historia__paragrafo1{
+    margin: 1vh;
+    text-align: justify;
+}
+
+#sexta-sessao__imagem{
+    height: 10vh;
+    margin: 2vh;
+}
+
+.sexta-sessao__historia__botao{
+    display: flex;
+    justify-content: center;  
+    margin: 2vh;
+}
+
+#sexta-sessao__historio__design-botao{
+    padding: 0.5vh;
+    background-color: #171717;
+    color: #D9D9D9;
+    border-radius: 10px;
+    width: 100vh;
+}
+
+#sexta-sessao__historio__design-botao:hover{
+    transform: translate(-1px) translateY(-5px);
+}
+
+
+.setima-sessao{
+    display: flex;
+    flex-direction: column;
+    margin: 4vh;
+}
+
+#setima-sessao__titulo{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 2vh;
+}
+
+#setima-sessao__primeira-div__paragrafos{
+    margin: 2vh;
+    font-size: 14px;
+}
+
+footer{
+    background-color: #171717;
+}
+
+.footer__nome-criadores{
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    color: #FFFFFF;
+    padding: 3vh;
+}

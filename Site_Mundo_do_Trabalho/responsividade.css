@@ -1,0 +1,412 @@
+@media screen and (min-width: 770px) and (max-width: 1200px){
+    #barra-navegação{
+        display: none;
+    }
+
+    .primeira-nav-cabecalho__segunda-div{
+        display: flex;
+        width: 30vw;
+    }
+
+    #nav-cabecalho__nome-site{
+        font-size: 18px;
+    }
+
+    .nav_cabecalho-link{
+        font-size: 12px;
+    }
+
+    .primeira-sessao{
+        background-size: 100% 85%;
+        height: 50vh;
+    }
+
+    .primeira-sessao__primeira-div{
+        height: 35vh;
+    }
+
+    #primeira-sessao__informacao-escola{
+        font-size: 20px;
+    }
+
+    #primeira-sessao__titulo{
+        font-size: 30px;
+    }
+
+    .nav-primeira-sessao-link-button1, .nav-primeira-sessao-link-button2, .nav-primeira-sessao-link-button3{
+        height: 1.5vh;
+        width: 1.5vh;
+        border-radius: 1vh;
+    }
+
+    #segunda-sessao__titulo{
+        font-size: 24px;
+        width: 55vw;
+        margin: 3vh;
+    }
+
+    #segunda-sessao__informacao{
+        font-size: 18px;
+        margin: 3vh;
+    }
+
+    #segunda-sessao-div-imagens__areas{
+        height: 10vh;
+    }
+
+    #terceira-sessao__primeira-div__titulo{
+        font-size: 24px;
+    }
+
+
+    .terceira-sessao__primeira-div__informacoes-quadrado > p{
+        font-size: 18px;
+        width: 35vw;
+    }
+    
+
+    #terceira-sessao__primeira-div__informacoes-quadrado__titulo{
+        font-size: 22px;
+    }
+
+    .terceira-sessao__primeira-div__informacoes-quadrado-habilidades-paragrafos{
+        font-size: 16px;
+        height: 12vh;
+    }
+
+    #titulo-quarta-sessao{
+        font-size: 22px;
+        margin: 3vh;
+    }
+
+    .quarta-sessao__primeira-div__conteudo > p{
+        font-size: 18px;
+        margin: 3vh;
+    }
+
+    .botao{     
+        width: 20vh;
+    }
+
+    #areas__segunda-sessao__titulo{
+        font-size: 22px;
+        width: 55vw;
+    }
+
+    .quarta-sessao__areas__segunda-sessao{
+        margin: 6vh;
+    }
+
+    .areas__segunda-sessao__paragrafos > p{
+        font-size: 18px;
+    }
+
+    .quinta-sessao{
+        margin: 3vh;
+    }
+
+    #quinta-sessao__titulo{
+        font-size: 22px;
+        margin-bottom: 8vh;
+    }
+
+    .quinta-sessao__paragrafos > p{
+        font-size: 18px;
+        height: 100vh;
+    }
+
+    .paragrafos__logos-empresas{
+        margin: 4vh;
+    }
+
+    #paragrafos__logos-empresas__titulo{
+        font-size: 16px;
+    }
+    
+    .imagens__logo > img{
+        height: 5vh;
+        padding: 1.5vh;
+    }
+
+    #quinta-sessao__titulo{
+        margin: 3vh;
+    }
+    .quinta-sessao__paragrafos{
+        height: 50vh;
+    }
+
+    .quinta-sessao__paragrafos > p{
+        height: 10vh;
+        padding: 1vh;
+    }
+
+
+
+    .sexta-sessao{
+        border: 5px solid black;
+        margin: 6vh;
+    }
+    
+    .sexta-sessao__titulo > p{
+        padding: 6vh;
+        font-size: 20px;
+    }
+    
+    .sexta-sessao__historia{
+        margin: 2vh;
+        padding: 3vh;
+        background-size: 100%;
+    }
+    
+    #sexta-sessao__historia__titulo{
+        font-size: 22px;
+    }
+    
+    .sexta-sessao__historia__bloco{
+        margin: 2vh;
+    }
+    
+    #sexta-sessao__historia__paragrafo1{
+        margin: 1vh;
+        font-size: 18px;
+    }
+    
+    .sexta-sessao__historia__botao{
+        margin: 4vh;
+    }
+    
+    #sexta-sessao__historio__design-botao{
+        padding: 1vh;
+        border-radius: 12px;
+        width: 100vh;
+    }
+    
+    .setima-sessao{
+        margin: 6vh;
+    }
+    
+    #setima-sessao__titulo{
+        font-size: 22px;
+        margin: 2vh;
+    }
+    
+    #setima-sessao__primeira-div__paragrafos{
+        margin: 2vh;
+        font-size: 18px;
+    }
+    
+    .footer__nome-criadores{
+        font-size: 15px;
+        padding: 4.5vh;
+    }
+    
+}
+
+/* ----------------- 1200 X 1920 ---------------  */
+@media screen and (min-width: 1201px) and (max-width: 1920px){
+    #barra-navegação{
+        display: none;
+    }
+
+    header{
+        height: 10vh;
+    }
+
+    .primeira-nav-cabecalho__segunda-div{
+        display: flex;
+        width: 30vw;
+    }
+
+    #nav-cabecalho__nome-site{
+        font-size: 24px;
+    }
+
+    .nav_cabecalho-link{
+        font-size: 18px;
+    }
+
+    .primeira-sessao{
+        background-size: 100% 85%;
+        height: 80vh;
+    }
+
+    .primeira-sessao__primeira-div{
+        height: 60vh;
+    }
+
+    #primeira-sessao__informacao-escola{
+        font-size: 30px;
+    }
+
+    #primeira-sessao__titulo{
+        font-size: 42px;
+        width: 40vw;
+    }
+
+    .nav-primeira-sessao-link-button1, .nav-primeira-sessao-link-button2, .nav-primeira-sessao-link-button3{
+        height: 3vh;
+        width: 3vh;
+        border-radius: 2vh;
+    }
+
+    #segunda-sessao__titulo{
+        font-size: 36px;
+        width: 55vw;
+        margin: 14vh;
+        margin-bottom: -10vh;
+    }
+
+    #segunda-sessao__informacao{
+        font-size: 24px;
+        margin: 14vh;
+    }
+
+    .segunda-sessao__div-imagens > i{
+        font-size: 58px;
+        margin-top: -10vh;
+    }
+
+    #terceira-sessao__primeira-div__titulo{
+        font-size: 32px;
+    }
+
+
+    .terceira-sessao__primeira-div__informacoes-quadrado > p{
+        font-size: 26px;
+        width: 24vw;
+    }
+    
+
+    #terceira-sessao__primeira-div__informacoes-quadrado__titulo{
+        font-size: 26px;
+    }
+
+    .terceira-sessao__primeira-div__informacoes-quadrado-habilidades{
+        width: 40vw;
+    }
+
+    .terceira-sessao__primeira-div__informacoes-quadrado-habilidades-paragrafos{
+        font-size: 24px;
+        height: 25vh;
+        width: 35vw;
+    }
+
+    #titulo-quarta-sessao{
+        font-size: 36px;
+        margin: 5vh;
+    }
+
+    .quarta-sessao__primeira-div__conteudo > p{
+        font-size: 26px;
+        margin: 5vh;
+    }
+
+    .botao{     
+        width: 60vh;
+        font-size: 22px;
+    }
+
+    .astro, .mat, .ciencia{
+        font-size: 20px;
+    }
+
+    #areas__segunda-sessao__titulo{
+        font-size: 36px;
+        width: 55vw;
+    }
+
+    .quarta-sessao__areas__segunda-sessao{
+        margin: 8vh;
+    }
+
+    .areas__segunda-sessao__paragrafos > p{
+        font-size: 26px;
+    }
+
+    .quinta-sessao{
+        margin: 6vh;
+    }
+
+    #quinta-sessao__titulo{
+        font-size: 36px;
+        margin: 2vh;
+    }
+
+    .quinta-sessao__paragrafos > p{
+        font-size: 26px;
+        margin-bottom: 4vh;
+    }
+
+    .sexta-sessao{
+        border: 8px solid black;
+        margin: 10vh;
+    }
+    
+    .sexta-sessao__titulo > p{
+        padding: 8vh;
+        font-size: 26px;
+    }
+    
+    .sexta-sessao__historia{
+        margin: 4vh;
+        padding: 5vh;
+        background-size: 100%;
+    }
+    
+    #sexta-sessao__historia__titulo{
+        font-size: 24px;
+    }
+    
+    .sexta-sessao__historia__bloco{
+        margin: 4vh;
+    }
+    
+    #sexta-sessao__historia__paragrafo1{
+        margin: 1vh;
+        font-size: 22px;
+    }
+    
+    .sexta-sessao__historia__botao{
+        margin: 6vh;
+    }
+    
+    #sexta-sessao__historio__design-botao{
+        padding: 2vh;
+        border-radius: 16px;
+        font-size: 18px;
+    }
+    
+    .setima-sessao{
+        margin: 8vh;
+    }
+    
+    #setima-sessao__titulo{
+        font-size: 36px;
+        margin: 2vh;
+    }
+    
+    #setima-sessao__primeira-div__paragrafos{
+        margin: 2vh;
+        font-size: 26px;
+    }
+    
+    .footer__nome-criadores{
+        font-size: 19px;
+        padding: 5.5vh;
+    }
+
+
+
+    .paragrafos__logos-empresas{
+        margin: 6vh;    
+    }
+
+    #paragrafos__logos-empresas__titulo{
+        font-size: 24px;
+    }
+    
+    .imagens__logo > img{
+        height: 6vh;
+        padding: 2vh;
+    }
+}
